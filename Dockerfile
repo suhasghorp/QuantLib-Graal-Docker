@@ -34,3 +34,4 @@ RUN set -xeu && \
 # *also* set $PATH in /etc/profile.d/*
 
 ENV PATH=/graalvm/bin:$PATH
+CMD bash
